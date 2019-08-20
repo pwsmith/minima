@@ -2,9 +2,7 @@ title: Peter W. Smith
 author: Peter W. Smith
 email: peter.w.smith16@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The homepage of Peter W. Smith: Linguist, Programmer,  
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -22,7 +20,7 @@ minima:
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
+    linkedin: peter-smith-125587183
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
