@@ -2,7 +2,7 @@
   layout: post
 ---
 
-*So, so, many* things.
+*So, so, many things*.
 But, I mean things I wish I knew from a *techincal* standpoint, not just things about academia and/or life in general.
 The way I handled paper writing and research in the early days of was vastly different from how I do it now.
 If I had started off this way, it would have saved a lot of time in the long run.
@@ -12,16 +12,17 @@ I think I've got a nice set-up now --- certainly not perfect (it's not something
 When I started graduate school in Connecticut in 2010, I used the same computer setup that I did when I did my BA studies.
 That meant, everything was done in Microsoft Office (realistically, 99% Microsoft Word).
 Quite early on at Conencticut I bought a Macbook Pro, which meant switiching to Apple's software (I didn't want to buy Office for Mac, when Pages --- at the time -- was sufficient for what I was doing).
-Around 2014, I'd reached the limits of what I could do with this: I'd wrestled with these programs enough for writing, but two journal submissions finally highlighted the need to not waste time anymore on automatic numbering and bibliography management, so I decided to switch the way I wrote papers to using LaTeX.
+Around 2014, I'd reached the limits of what I could do with this: I'd wrestled with these programs enough for writing, but two journal submissions finally highlighted the need to not waste time anymore on example numbering and bibliography management, so I decided to switch the way I wrote papers to using LaTeX.
 That, but mostly my wife Beata was using LaTeX and I got intrigued.
-I wish I'd done it earlier, and learned it at a time I wasn't writing job and project applications, and my thesis (all at the same time, fun times), but not just using LaTeX, but having a streamlined set-up in the way I do now.
+I wish I'd done it earlier, and learned it at a time I wasn't writing job and project applications, and my thesis (all at the same time, fun times).
+This applies not only to using LaTeX, but also to having a streamlined set-up in the way I do now.
 
 ## Use LaTeX...
 
 The debate of LaTeX vs. what-you-see-is-what-you-get (WYSIWYG) programs like Word and Pages, is well discussed, and can incite strong opinions.
 Those in favour of LaTeX point to the severance of the writing itself from formatting.
 LaTeX is written in plain text, and then LaTeX itself handles the formatting very intelligently.
-In an ideal case, this means one can focus more attention on the content, than the format, which whilst potentially true, is a very idealised version of using LaTeX.
+In an ideal case, this means one can focus more attention on the content rather than the formatting, which whilst potentially true, is a very idealised version of using LaTeX.
 It ignores time spent identifying and fixing errors as well as fixing your preamble so that the appearance is how you want it (not everyone, I know) as well as a number of other things that distract from the writing process.
 Those in favour of WYSIWYG writing point out that the learning curve for LaTeX is outlandishly steep, that collaborations often require using WYSIWYG programs as collaborators don't use LaTeX, and that some journals --- inexplicably --- require final versions of paper in .docx format.
 
@@ -35,6 +36,9 @@ For those not versed, here is why you should use LaTeX, particularly as a lingui
 - It will handle formatting mostly well
 - It's probably the best suited software for generating articles with the typesetting requirements that linguistics needs.
 - It makes life very easy to use non-latin characters, and to combine accents with them.
+
+There are easier options of writing in plain text (for instance markdown), but these often lack the required support to format linguistics papers.
+For instance, automatic numbering, glossing alignment, tree drawing, are all not easily done using markdown (there are workarounds).
 
 As I said, I'm not here to give an overview of why LaTeX is good for academic publications.
 Many of these exist already see [here](https://tex.stackexchange.com/questions/1756/why-should-i-use-latex) for a general discussion, and for a lingusitics specific set up, see [Latex for Linguists (Essex-style), from Doug Arnold](https://www1.essex.ac.uk/linguistics/external/clmt/latex4ling/) and [Latex for Linguists (Leipzig-style), from Anke Himmelreich](https://home.uni-leipzig.de/assmann/teaching/SS18/skript_latex.pdf).
@@ -52,7 +56,7 @@ It does take time and effort to trawl through error messages trying to figure ou
 Secondly, as [this article](https://dev.to/hoffmann/lets-find-something-better-then-latex) points out, whilst LaTeX is a great piece of software, it's still an old piece of software that has developed over many, *many* years by now.
 That means that some of the packages that you need to use may conflict, and there's little chance of an update fixing it.
 Whilst this is a minor concern in the time I've been using it, it does happen.
-Anyone who has tried to process in XeLaTeX (e.g. if you're requireed to use fontspec) and tried to use TIPA for phonetic symbols has likely run into this.
+Anyone who has tried to compile in XeLaTeX (e.g. if you're requireed to use fontspec) and tried to use TIPA for phonetic symbols has likely run into this.
 
 ### ...and use it properly
 
@@ -63,8 +67,8 @@ But, there are things that you can do to enhance the experience of it.
 
 I can't stress this enough.
 For many people, the entry into using LaTeX is the software that comes bundled with the download.
-I can't speak for windows users here, but if you are a Mac user it's not unliekly that your first foray into LaTeX use was using [TeXShop](https://pages.uoregon.edu/koch/texshop/).
-This is a very good program, is free to use and comes bundled with Mixtec (likely what you downloaded LaTeX with on your mac), and will get the job done.
+I can't speak for windows users here, but if you are a Mac user it's not unlikely that your first foray into LaTeX use was using [TeXShop](https://pages.uoregon.edu/koch/texshop/).
+This is a very good program, is free to use and comes bundled with MacTeX (likely what you downloaded LaTeX with on your mac), and will get the job done.
 However, other editors offer a lot more customisation and shortcuts that are missing in TeXShop.
 For instance, [Emacs](https://www.gnu.org/software/emacs/), Atom (https://atom.io/) and [Sublime](https://www.sublimetext.com/3) all offer extensible options to make your writing easier.
 All offer bibliography integration directly so you can search for citations in your bibliography file without leaving the program, useful if you know the name of the author of the source, but can't remember the full citation key:
@@ -74,7 +78,7 @@ All offer bibliography integration directly so you can search for citations in y
 They also offer a range of syntax highlighting options and automatic indentation to make your text easier to read in the source file
 Finally, they offer the ability to define your own keybindings and snippets.
 Snippets for instance allow you to automatically insert a block of text by specifying a keyword.
-For isntance, one of mine is such that typing `exe` and hitting `tab`, causes the following code to appear, with the cursor placed after `\ex `:
+For instance, one of mine is such that typing `exe` and hitting `tab`, causes the following code to appear, with the cursor placed after `\ex `:
 
 ```
 \begin{exe}
@@ -134,10 +138,10 @@ Using unicode symbols also requires you to use XeLaTeX (or at least, not pdflate
 You also need to use a font that outputs the characters, like [Libertine](http://libertine-fonts.org/), or the SIL fonts like [Doulos](https://software.sil.org/doulos/) or [Charis](https://software.sil.org/charis/).[^fonts]
 
 Using this method, in order to output /pləˈkeɪt/, you simply input /pləˈkeɪt/ into your document.
-And you can then copy-paste it into other formats: word documents, html documents, markdown, emails will all recognise the symbols, assuming that the font you're using does too (see below).
+And you can then copy-paste it into other formats: word documents, html documents, markdown and emails will all recognise the symbols, assuming that the font you're using does too.
 Thus, in order to allow your data to be as easily used by other formates, you should be typing in LaTeX.
 If you never venture outside of LaTeX, then not using TIPA is not a big deal.
-But in my experience, it's a matter of time, so it's worthwhile getting familiar with unicode now.
+But in my experience, it's a matter of time before you want to use the examples outside of LaTeX, so it's worthwhile getting familiar with unicode now.
 For a very worthwhile introduction specifically aimed at lingusits, I'd advise the (open access) book [The Unicode cookbook for linguists](http://langsci-press.org/catalog/book/176) BY Steven Moran and Michael Cysouw.
 
 [^TIPA]: Aside from the difficulty it causes using XeLaTeX.
@@ -149,7 +153,7 @@ For a very worthwhile introduction specifically aimed at lingusits, I'd advise t
 Yes, I know, *use the preamble that's appropriate for your paper*, i.e. load only the packages that you need.
 However, at some point your LaTeX preamble (for the uninitiated, the set of packages you specify for LaTeX to use to do things not covered by the default compiler) will be a set of packages that you always use.
 Rather than having one document from where you copy-paste your preamble time after time, just store it locally.
-For isntance, suppose that your preamble you use for everything is as follows:
+For instance, suppose that your preamble you use for everything is as follows:
 
 ```
 \usepackage{fontspec}
@@ -213,7 +217,7 @@ So, if you were to copy your usual preamble into the file `packages.sty`, and sa
 and TeX will use everything you specified in that file as part of your preamble to the document you're writing.
 Just fill in anything extra you need in your preamble where `...` is in the above, and all your preamble is there.
 
-[^maclibrary]: It's needlessly slightly more complicated on OSX. You need the file directory `USER > Library > texmf > tex > latex > local`, and for reasons I don't understand, Apple treats each user's Library file as a hidden one. You can get there from the finder by following `Go > Home` in the menu (or hit `command + shift + b`), which will take you to the user directory. Then, type `command + shift + .` to show hidden files. Make the directory `texmf > tex > latex > local` there, and anything you
+[^maclibrary]: It's needlessly slightly more complicated on OSX. You need the file directory `USER > Library > texmf > tex > latex > local`, and for reasons I don't understand, Apple treats each user's Library file as a hidden one. You can get there from the finder by following `Go > Home` in the menu (or hit `command + shift + b`), which will take you to the user directory. Then, type `command + shift + .` to show hidden files. Make the directory `texmf > tex > latex > local` there, and anything you put there should be visible to LaTeX.
 
 #### Miscellaneous tips
 
@@ -231,12 +235,11 @@ Here is the first line. And here is the second.
 ## Version Control: Learn Git
 
 I'm not an expert on git by any stretch.
-I use it a lot for writing papers and for storing class grades, but use it less than a software developer would, which is to be expected.
+I use it a lot for writing papers and for storing class grades, but use it less than a software developer would, which is to be expected, but here is a brief explainer why you should use it for your writing.
 
 In short, git allows you to save different versions (snapshots) of a document within the same document.
 That way, if you ever want to revert that document to a previous state you can.
-To put it in terms of an example.
-Let's imagine you write a paper and have finished it, and send it to people for comments.
+To put it in terms of an example, let's imagine you write a paper and have finished it, and send it to people for comments.
 You get a comment back saying you should change section 2, and you do.
 Then, you reread it, but don't like what you changed, so you want to go back to the way it was.
 How?
@@ -248,7 +251,6 @@ With git, you can simply choose to save the document at a specific stage which w
 If you change it, you can choose which 'commit' to revert to.
 Thus you only need one document on your system, and the entire history of that document will lie in that, along with meta-comments and a record of changes.
 In short, it helps you avoid [this](http://phdcomics.com/comics/archive_print.php?comicid=1531).
-
 It's incredibly useful to have this record of past versions, to allow you to go back to other states, and feel free to alter text without fear of having to potentially re-type what you already did.
 
 Another benefit is with collaboration.
