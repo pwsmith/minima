@@ -140,7 +140,7 @@ You also need to use a font that outputs the characters, like [Libertine](http:/
 
 Using this method, in order to output /pləˈkeɪt/, you simply input /pləˈkeɪt/ into your document.
 And you can then copy-paste it into other formats: word documents, html documents, markdown and emails will all recognise the symbols, assuming that the font you're using does too.
-Thus, in order to allow your data to be as easily used by other formates, you should be typing in LaTeX.
+Thus, in order to allow your data to be as easily used by other formats, you should be typing in LaTeX.
 If you never venture outside of LaTeX, then not using TIPA is not a big deal.
 But in my experience, it's a matter of time before you want to use the examples outside of LaTeX, so it's worthwhile getting familiar with unicode now.
 For a very worthwhile introduction specifically aimed at lingusits, I'd advise the (open access) book [The Unicode cookbook for linguists](http://langsci-press.org/catalog/book/176) BY Steven Moran and Michael Cysouw.
