@@ -231,7 +231,6 @@ And this:
 ```
 Here is the first line. And here is the second.
 ```
--
 
 ## Version Control: Learn Git
 
