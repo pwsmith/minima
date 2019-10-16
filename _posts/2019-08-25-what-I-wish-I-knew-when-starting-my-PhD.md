@@ -71,6 +71,7 @@ I can't speak for windows users here, but if you are a Mac user it's not unlikel
 This is a very good program, is free to use and comes bundled with MacTeX (likely what you downloaded LaTeX with on your mac), and will get the job done.
 However, other editors offer a lot more customisation and shortcuts that are missing in TeXShop.
 For instance, [Emacs](https://www.gnu.org/software/emacs/), Atom (https://atom.io/) and [Sublime](https://www.sublimetext.com/3) all offer extensible options to make your writing easier.
+There's also Microsoft's [Visual Studio Code](https://code.visualstudio.com/), which is also fantastic, though I find slightly less suited to LaTeX than Atom or Sublime.
 All offer bibliography integration directly so you can search for citations in your bibliography file without leaving the program, useful if you know the name of the author of the source, but can't remember the full citation key:
 
 ![/assets/images/atom_biblio.png](/assets/images/atom_biblio.png)
@@ -130,7 +131,7 @@ A better way of working, which avoids all these problems is simply to input the 
 This can be tricky in the beginning but qiuckly becomes easier.
 To do this, you need a good text editor, which allows you to enter unicode characters.[^unicode]
 Emacs does this natively with the sequnce `ctrl+x 8 RET`.
-With both Atom and Sublime, you can download the excellent package ([Atom](https://atom.io/packages/character-table)) ([Sublime](https://packagecontrol.io/packages/Character%20Table)), which allows you to search by either unicode combination or by character name:
+With both Atom and Sublime, you can download the excellent package Character Table ([Atom](https://atom.io/packages/character-table)) ([Sublime](https://packagecontrol.io/packages/Character%20Table)), which allows you to search by either unicode combination or by character name:
 
 ![unicode search in atom](/assets/images/unicode_search.png)
 
