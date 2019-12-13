@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ## Reveal.js for linguistics: Creating a talk with reveal.js
 
 

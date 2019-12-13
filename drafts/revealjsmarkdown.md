@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ## Reveal.js for linguistics: using Markdown to write slideshows
 
 ## What is Markdown
