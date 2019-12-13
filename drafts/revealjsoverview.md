@@ -1,4 +1,4 @@
-# Reveal.js for linguistics: Creating a talk with reveal.js
+## Reveal.js for linguistics: Creating a talk with reveal.js
 
 
 ## What is reveal.js
