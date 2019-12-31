@@ -1,8 +1,0 @@
-I"	<p>Recently I have been using reveal.js to make slides for talks, and here is a guide.</p>
-
-<h2 id="what-is-revealjs">What is reveal.js?</h2>
-
-<p>Reveal.js is a javascript application used for making slideshow presentations in html format.
-Effectively, you are making your slides as a webpage, which means that you can style them using css, have interactive components using javascript, embed videos and audio easily, and, well, anything else you can put on a webpage.
-This makes it <em>incredibly</em> flexible, and</p>
-:ET

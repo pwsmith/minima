@@ -1,0 +1,72 @@
+I"]<div class="example-container">
+		<div class="individual-example">
+			<div class="example-number"><p class="ex"></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*</p></div>
+			<div class="example-sentence"><p>Example sentence</p></div>
+		</div>
+		<div class="individual-example">
+			<div class="example-number"><p></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*</p></div>
+			<div class="example-sentence"><p>Example sentence</p></div>
+		</div>
+		<div class="individual-example">
+			<div class="example-number"><p></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*</p></div>
+			<div class="example-sentence"><p>Example sentence</p></div>
+		</div>
+		<div class="individual-example">
+			<div class="example-number"><p></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*?</p></div>
+			<div class="example-sentence"><p>Example <i>sentence</i></p></div>
+		</div>
+</div>
+
+<div class="example-container">
+		<div class="individual-example">
+			<div class="example-number"><p class="ex"></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*</p></div>
+			<div class="example-sentence"><p>Example sentence</p></div>
+		</div>
+		<div class="individual-example">
+			<div class="example-number"><p></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*</p></div>
+			<div class="example-sentence"><p>Example sentence</p></div>
+		</div>
+		<div class="individual-example">
+			<div class="example-number"><p></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*</p></div>
+			<div class="example-sentence"><p>Example sentence</p></div>
+		</div>
+		<div class="individual-example">
+			<div class="example-number"><p></p></div>
+			<div class="ab-counter"><p class="ab"></p></div>
+			<div class="judgement"><p>*?</p></div>
+			<div class="example-sentence"><p>Example sentence</p></div>
+		</div>
+</div>
+
+<div class="gloss-example-container">
+            <div class="gloss-individual-example">
+                <div class="example-number"><p class="ex"></p></div>
+                    <div class="ab-counter"><p class="ab"></p></div>
+                    <div class="judgement"><p>#</p></div>
+                    <div class="gloss-example">
+                    <ol class="sentence">
+                            <li class="gloss-individual-word">
+                                <ol class="word">
+                                    &lt;li class=target-word&gt;Ik&lt;/li&gt;
+                                    &lt;li class=target-gloss&gt;I.<span class="smallcaps">nom</span>&lt;/li&gt;
+                                </ol>
+                            </li>
+                    </ol>
+                    </div>
+            </div>
+        </div>
+:ET
