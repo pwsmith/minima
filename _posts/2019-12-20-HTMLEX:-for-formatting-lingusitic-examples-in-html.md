@@ -29,8 +29,8 @@ It allows you to create output like the following that can be used in html pages
 		<div class="individual-example">
 			<div class="example-number"><p></p></div>
 			<div class="ab-counter"><p class='ab'></p></div>
-			<div class="judgement"><p></p></div>
-			<div class="example-sentence"><p>It's beak is too shiny.</p></div>
+			<div class="judgement"><p>#</p></div>
+			<div class="example-sentence"><p>Its beak is too shiny.</p></div>
 		</div>
 		<div class="individual-example">
 			<div class="example-number"><p></p></div>
@@ -41,7 +41,7 @@ It allows you to create output like the following that can be used in html pages
 		<div class="individual-example">
 			<div class="example-number"><p></p></div>
 			<div class="ab-counter"><p class='ab'></p></div>
-			<div class="judgement"><p>#</p></div>
+			<div class="judgement"><p></p></div>
 			<div class="example-sentence"><p>Her eggs are so smooth.</p></div>
 		</div>
 </div>
